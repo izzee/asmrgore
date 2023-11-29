@@ -1,0 +1,129 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+main {
+  height: 100dvh;
+  display: flex;
+  flex-direction: column;
+}
+section { 
+  flex: 1;
+  display: flex;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+}
+
+section > div {
+  height: 100%;
+}
+
+section img {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+  max-width: 480px;
+}
+.left-ear, .left-eye, .right-ear, .right-eye, .mouth {
+  flex: 1;
+  background-size: 100% 100%;
+}
+
+.frame-1 .left-ear {
+  background-image: url('./assets/left-ear-1.jpg')
+}
+.frame-1 .left-eye {
+  background-image: url('./assets/left-eye-1.jpg')
+}
+.frame-1 .right-ear {
+  background-image: url('./assets/right-ear-1.jpg')
+}
+.frame-1 .right-eye {
+  background-image: url('./assets/right-eye-1.jpg')
+}
+.frame-1 .mouth {
+  background-image: url('./assets/mouth-1.jpg')
+}
+
+.frame-2 .left-ear {
+  background-image: url('./assets/left-ear-2.jpg')
+}
+.frame-2 .left-eye {
+  background-image: url('./assets/left-eye-2.jpg')
+}
+.frame-2 .right-ear {
+  background-image: url('./assets/right-ear-2.jpg')
+}
+.frame-2 .right-eye {
+  background-image: url('./assets/right-eye-2.jpg')
+}
+.frame-2 .mouth {
+  background-image: url('./assets/mouth-2.jpg')
+}
+
+.frame-3 .left-ear {
+  background-image: url('./assets/left-ear-3.jpg')
+}
+.frame-3 .left-eye {
+  background-image: url('./assets/left-eye-3.jpg')
+}
+.frame-3 .right-ear {
+  background-image: url('./assets/right-ear-3.jpg')
+}
+.frame-3 .right-eye {
+  background-image: url('./assets/right-eye-3.jpg')
+}
+.frame-3 .mouth {
+  background-image: url('./assets/mouth-3.jpg')
+}
+
+.frame-4 .left-ear {
+  background-image: url('./assets/left-ear-4.jpg')
+}
+.frame-4 .left-eye {
+  background-image: url('./assets/left-eye-4.jpg')
+}
+.frame-4 .right-ear {
+  background-image: url('./assets/right-ear-4.jpg')
+}
+.frame-4 .right-eye {
+  background-image: url('./assets/right-eye-4.jpg')
+}
+.frame-4 .mouth {
+  background-image: url('./assets/mouth-4.jpg')
+}
+
+
+.frame-5 .left-ear {
+  background-image: url('./assets/left-ear-5.jpg')
+}
+.frame-5 .left-eye {
+  background-image: url('./assets/left-eye-5.jpg')
+}
+.frame-5 .right-ear {
+  background-image: url('./assets/right-ear-5.jpg')
+}
+.frame-5 .right-eye {
+  background-image: url('./assets/right-eye-5.jpg')
+}
+.frame-5 .mouth {
+  background-image: url('./assets/mouth-5.jpg')
+}
+
+
+.frame-6 .left-ear {
+  background-image: url('./assets/left-ear-6.jpg')
+}
+.frame-6 .left-eye {
+  background-image: url('./assets/left-eye-6.jpg')
+}
+.frame-6 .right-ear {
+  background-image: url('./assets/right-ear-6.jpg')
+}
+.frame-6 .right-eye {
+  background-image: url('./assets/right-eye-6.jpg')
+}
+.frame-6 .mouth {
+  background-image: url('./assets/mouth-6.jpg')
+}
